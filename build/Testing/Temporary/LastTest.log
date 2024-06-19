@@ -1,0 +1,35 @@
+Start testing: Jun 19 14:44 CEST
+----------------------------------------------------------
+1/2 Testing: AddTest
+1/2 Test: AddTest
+Command: "/Users/user/Desktop/tp/CTEST/build/tests/test_add"
+Directory: /Users/user/Desktop/tp/CTEST/build/tests
+"AddTest" start time: Jun 19 14:44 CEST
+Output:
+----------------------------------------------------------
+Test passed!
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"AddTest" end time: Jun 19 14:44 CEST
+"AddTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: SubtractTest
+2/2 Test: SubtractTest
+Command: "/Users/user/Desktop/tp/CTEST/build/tests/test_subtract"
+Directory: /Users/user/Desktop/tp/CTEST/build/tests
+"SubtractTest" start time: Jun 19 14:44 CEST
+Output:
+----------------------------------------------------------
+Test passed!
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"SubtractTest" end time: Jun 19 14:44 CEST
+"SubtractTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 19 14:44 CEST

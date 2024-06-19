@@ -1,0 +1,9 @@
+/Users/user/Desktop/tp/CTEST/build/CMakeFiles/MyProject.dir
+/Users/user/Desktop/tp/CTEST/build/CMakeFiles/test.dir
+/Users/user/Desktop/tp/CTEST/build/CMakeFiles/edit_cache.dir
+/Users/user/Desktop/tp/CTEST/build/CMakeFiles/rebuild_cache.dir
+/Users/user/Desktop/tp/CTEST/build/tests/CMakeFiles/test_add.dir
+/Users/user/Desktop/tp/CTEST/build/tests/CMakeFiles/test_subtract.dir
+/Users/user/Desktop/tp/CTEST/build/tests/CMakeFiles/test.dir
+/Users/user/Desktop/tp/CTEST/build/tests/CMakeFiles/edit_cache.dir
+/Users/user/Desktop/tp/CTEST/build/tests/CMakeFiles/rebuild_cache.dir
