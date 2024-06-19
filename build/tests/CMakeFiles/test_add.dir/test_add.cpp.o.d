@@ -1,5 +1,6 @@
 tests/CMakeFiles/test_add.dir/test_add.cpp.o: \
   /Users/user/Desktop/tp/CTEST/tests/test_add.cpp \
+  /Users/user/Desktop/tp/CTEST/inc/add.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \

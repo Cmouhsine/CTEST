@@ -140,6 +140,19 @@ MyProject/fast:
 .PHONY : MyProject/fast
 
 #=============================================================================
+# Target rules for targets named add
+
+# Build rule for target.
+add: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add
+.PHONY : add
+
+# fast build rule for target.
+add/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/build
+.PHONY : add/fast
+
+#=============================================================================
 # Target rules for targets named test_add
 
 # Build rule for target.
@@ -199,6 +212,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... MyProject"
+	@echo "... add"
 	@echo "... test_add"
 	@echo "... test_subtract"
 	@echo "... main.o"

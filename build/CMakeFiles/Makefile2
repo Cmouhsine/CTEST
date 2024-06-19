@@ -64,17 +64,35 @@ CMAKE_BINARY_DIR = /Users/user/Desktop/tp/CTEST/build
 
 # The main recursive "all" target.
 all: CMakeFiles/MyProject.dir/all
+all: src/all
 all: tests/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: src/preinstall
 preinstall: tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/MyProject.dir/clean
+clean: src/clean
 clean: tests/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/add.dir/all
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/add.dir/clean
+.PHONY : src/clean
 
 #=============================================================================
 # Directory level rules for directory tests
@@ -120,13 +138,39 @@ CMakeFiles/MyProject.dir/clean:
 .PHONY : CMakeFiles/MyProject.dir/clean
 
 #=============================================================================
+# Target rules for target src/CMakeFiles/add.dir
+
+# All Build rule for target.
+src/CMakeFiles/add.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/user/Desktop/tp/CTEST/build/CMakeFiles --progress-num=3,4 "Built target add"
+.PHONY : src/CMakeFiles/add.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/add.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/Desktop/tp/CTEST/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/add.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/Desktop/tp/CTEST/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/add.dir/rule
+
+# Convenience name for target.
+add: src/CMakeFiles/add.dir/rule
+.PHONY : add
+
+# clean rule for target.
+src/CMakeFiles/add.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/clean
+.PHONY : src/CMakeFiles/add.dir/clean
+
+#=============================================================================
 # Target rules for target tests/CMakeFiles/test_add.dir
 
 # All Build rule for target.
 tests/CMakeFiles/test_add.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_add.dir/build.make tests/CMakeFiles/test_add.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_add.dir/build.make tests/CMakeFiles/test_add.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/user/Desktop/tp/CTEST/build/CMakeFiles --progress-num=3,4 "Built target test_add"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/user/Desktop/tp/CTEST/build/CMakeFiles --progress-num=5,6 "Built target test_add"
 .PHONY : tests/CMakeFiles/test_add.dir/all
 
 # Build rule for subdir invocation for target.
@@ -152,7 +196,7 @@ tests/CMakeFiles/test_add.dir/clean:
 tests/CMakeFiles/test_subtract.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_subtract.dir/build.make tests/CMakeFiles/test_subtract.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_subtract.dir/build.make tests/CMakeFiles/test_subtract.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/user/Desktop/tp/CTEST/build/CMakeFiles --progress-num=5,6 "Built target test_subtract"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/user/Desktop/tp/CTEST/build/CMakeFiles --progress-num=7,8 "Built target test_subtract"
 .PHONY : tests/CMakeFiles/test_subtract.dir/all
 
 # Build rule for subdir invocation for target.

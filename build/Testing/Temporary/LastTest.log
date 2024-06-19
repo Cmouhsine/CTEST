@@ -1,18 +1,18 @@
-Start testing: Jun 19 14:44 CEST
+Start testing: Jun 19 15:16 CEST
 ----------------------------------------------------------
+Unable to find executable: /Users/user/Desktop/tp/CTEST/build/tests/test_add
 1/2 Testing: AddTest
 1/2 Test: AddTest
-Command: "/Users/user/Desktop/tp/CTEST/build/tests/test_add"
+Command: ""
 Directory: /Users/user/Desktop/tp/CTEST/build/tests
-"AddTest" start time: Jun 19 14:44 CEST
+"AddTest" start time: 
 Output:
 ----------------------------------------------------------
-Test passed!
 <end of output>
-Test time =   0.16 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"AddTest" end time: Jun 19 14:44 CEST
+"AddTest" end time: Jun 19 15:16 CEST
 "AddTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -20,16 +20,16 @@ Test Passed.
 2/2 Test: SubtractTest
 Command: "/Users/user/Desktop/tp/CTEST/build/tests/test_subtract"
 Directory: /Users/user/Desktop/tp/CTEST/build/tests
-"SubtractTest" start time: Jun 19 14:44 CEST
+"SubtractTest" start time: Jun 19 15:16 CEST
 Output:
 ----------------------------------------------------------
 Test passed!
 <end of output>
-Test time =   0.08 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"SubtractTest" end time: Jun 19 14:44 CEST
+"SubtractTest" end time: Jun 19 15:16 CEST
 "SubtractTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 19 14:44 CEST
+End testing: Jun 19 15:16 CEST
